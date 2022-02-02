@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<title>Mon Portfolio</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<body>
+    <section id="port">
+        <img src="images/gallery/leportfolio.jpeg" alt="" />
+    </section>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul id="portfolio-filter">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-1">Web Apps</li>
+                        <li data-filter=".filter-2">Mobile Apps</li>
+                    </ul>
+                </div>
+            </div>
+
+            <body>
+                <aside class="comp">
+                    <!-- Start of jquery.slideShow code -->
+                    <div class="callbackSlideShow slideShow">
+                        <ul class="slides">
+                            <li class="slide">
+                                <p>SITE HTML/CSS</p>
+                                <a href="images/gallery/HTML-CSS.jpg"><img src="images/gallery/HTML-CSS.jpg" alt="flower" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>SITE FRAMEWORK IONIC</p>
+                                <a href="images/gallery/LogoIonic.png"><img src="images/gallery/LogoIonic.png" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>SITE SpringBoot</p>
+                                <a href="images/gallery/téléchargement.jpg"><img src="images/gallery/téléchargement.jpg" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>Methode Agile</p>
+                                <a href="images/gallery/téléchargement (1).jpg"><img src="images/gallery/téléchargement (1).jpg" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>Java-mysql</p>
+                                <a href="images/gallery/java-mysql.jpg"><img src="images/gallery/java-mysql.jpg" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>JavaScript</p>
+                                <a href="images/gallery/1200px-Unofficial_JavaScript_logo_2.svg.png"><img src="images/gallery/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>Angular</p>
+                                <a href="images/gallery/langfr-220px-Angular_full_color_logo.svg.png"><img src="images/gallery/langfr-220px-Angular_full_color_logo.svg.png" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>FIREBASE</p>
+                                <a href="images/gallery/téléchargement.png"><img src="images/gallery/téléchargement.png" alt="" /></a>
+                            </li>
+                            <li class="slide">
+                                <p>WordPress</p>
+                                <a href="images/gallery/wordpress.gif"><img src="images/gallery/wordpress.gif" alt="" /></a>
+                            </li>
+                        </ul>
+                        <ul class="navigation">
+
+                            <li><a href="javascript:void(0);" class="prev">prev</a></li>
+                            <li><a href="javascript:void(0);" class="page">1</a></li>
+                            <li><a href="javascript:void(0);" class="page">2</a></li>
+                            <li><a href="javascript:void(0);" class="page">3</a></li>
+                            <li><a href="javascript:void(0);" class="page">4</a></li>
+                            <li><a href="javascript:void(0);" class="page">5</a></li>
+                            <li><a href="javascript:void(0);" class="page">6</a></li>
+                            <li><a href="javascript:void(0);" class="page">7</a></li>
+                            <li><a href="javascript:void(0);" class="page">8</a></li>
+                            <li><a href="javascript:void(0);" class="page">9</a></li>
+                            <li><a href="javascript:void(0);" class="page">10</a></li>
+                            <li><a href="javascript:void(0);" class="next">next</a></li>
+                        </ul>
+                    </div>
+                    <div class="callBackSlideShowLog"></div>
+                    <!-- Javascripts needed for jquery.slideShow -->
+                    <script type="text/javascript" src="js/jquery.js"></script>
+                    <!-- jquery.Slideshow file -->
+                    <script type="text/javascript" src="js/jquery.slideshow.js"></script>
+                    <!-- Javascripts for examples, can be deleted -->
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+
+                            // slideshow with callback
+                            $('.callbackSlideShow').slideShow({
+                                interval: 3,
+                                slideClick: function(slideShow) {
+                                    if (slideShow.mouse.x > slideShow.options.slideSize.width / 1) {
+                                        slideShow.next();
+                                    } else {
+                                        slideShow.previous();
+                                    }
+                                },
+                            });
+                        });
+                    </script>
+                    <!-- end of jquery.Slideshow code -->
+                    <article class="articlecontent"></article>
+                </aside>
+            </body>
+
+</html>
